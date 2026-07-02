@@ -82,7 +82,7 @@ export function ArticleBody() {
 
       {/* Section 2 */}
       <h2 className="mt-12 scroll-mt-24 font-serif text-[1.75rem] font-bold leading-[1.2] tracking-[-0.01em] text-foreground md:text-3xl">
-        The pitfalls of &ldquo;<Hyperlink href="">creative laziness</Hyperlink>&rdquo;
+        The pitfalls of &ldquo;<Hyperlink href="https://shorturl.at/8FkL3">creative laziness</Hyperlink>&rdquo;
       </h2>
       <div className="mt-5 space-y-5 text-base leading-[1.7] text-foreground md:text-lg">
         <p>
@@ -212,7 +212,7 @@ export function ArticleBody() {
           {
             h: (
               <>
-                Fostering a <Hyperlink href="">culture of transparency about AI</Hyperlink> use.
+                Fostering a <Hyperlink href="https://shorturl.at/M5cBT">culture of transparency about AI</Hyperlink> use.
               </>
             ),
             b: " so the technology becomes a declared tool rather than a hidden crutch.",
