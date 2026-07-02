@@ -118,7 +118,7 @@ export function ArticleBody() {
         <p className="text-pretty font-serif text-xl font-medium italic leading-[1.4] tracking-[-0.01em] text-foreground md:text-2xl">
           &ldquo;I truly fear that one day, if I turn off ChatGPT, I will no
           longer know how to voice my own opinions and defend them with
-          words.&rdquo;
+          words&rdquo;
         </p>
         <cite className="mt-4 block text-sm font-semibold not-italic text-muted-foreground">
           — Minh Ngoc
