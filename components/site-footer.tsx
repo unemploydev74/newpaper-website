@@ -20,7 +20,7 @@ export function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <span className="font-serif text-xl font-bold tracking-[-0.01em] text-foreground">
-              The Campus Review
+              The Teamwork Journal
             </span>
             <p className="mt-4 text-[14px] leading-relaxed text-muted-foreground">
               Independent reporting on the ideas, technology, and people shaping
@@ -50,7 +50,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-8 text-[13px] text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} The Campus Review. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} The Teamwork Journal. All rights reserved.</p>
           <p>Made with editorial care</p>
         </div>
       </div>

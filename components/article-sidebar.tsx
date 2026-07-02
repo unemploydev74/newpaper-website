@@ -3,19 +3,22 @@ import { TrendingUp } from "lucide-react"
 
 const RELATED = [
   {
-    title: "The Growing Pressure of Student Life",
-    category: "CAMPUS LIFE",
+    title: "Mental health care for Vietnam’s young generation needs improvements ",
+    category: "HEALTH",
     img: "/growing-pressure.png",
+    href:"https://shorturl.at/4uiIP"
   },
   {
-    title: "Youth and the Rise of Second-Hand Shopping",
-    category: "LIFESTYLE",
-    img: "/second-hand-shopping.png",
+    title: "UNICEF hails Vietnam’s public school tuition waiver policy as investment in future",
+    category: "SOCIETY",
+    img: "/society.png",
+    href:"https://shorturl.at/ZkwWO"
   },
   {
-    title: "Hanoi Lotus Festival 2026 Celebrates Vietnam’s Cultural Heritage",
-    category: "CULTURE",
-    img: "/hanoi-lotus-adventure.png",
+    title: "Vietnam’s culture development in digital era",
+    category: "CULTURE-SPORTS",
+    img: "/cultures.png",
+    href:"https://shorturl.at/F7A7p"
   },
 ]
 
@@ -42,7 +45,7 @@ export function ArticleSidebar() {
         <ul className="flex flex-col gap-5">
           {RELATED.map((item) => (
             <li key={item.title}>
-              <a href="#article" className="group flex gap-3">
+              <a href={item.href} className="group flex gap-3">
                 <div className="relative size-20 shrink-0 overflow-hidden rounded bg-secondary">
                   <Image
                     src={item.img || "/placeholder.svg"}
