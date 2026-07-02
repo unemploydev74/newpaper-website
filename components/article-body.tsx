@@ -37,8 +37,8 @@ export function ArticleBody() {
           </span>
           anoi, late at night, a third-year double-major student in English
           Linguistics and International Communication, Minh Ngoc, stared at a
-          blank Word document. She had a final project assignment, and{" "}
-          <Hyperlink href="https://shorturl.at/FKj2L">ChatGPT</Hyperlink> blinked on her screen,
+          blank Word document. She had a final project assignment, and
+          ChatGPT blinked on her screen,
           seemingly ready to write it in seconds, yet Minh Ngoc hesitated.
         </p>
         <p>
@@ -72,9 +72,9 @@ export function ArticleBody() {
           serves as a catalyst for new ideas rather than a substitute for
           original thinking.
         </p>
-        <p>When AI tools become more deeply embedded in university life, the gap 
-          between using AI as a springboard and becoming overly dependent on it 
-          is becoming an ongoing trend, especially for students who have to deal 
+        <p>When AI tools become more deeply embedded in university life, the gap
+          between using AI as a springboard and becoming overly dependent on it
+          is becoming an ongoing trend, especially for students who have to deal
           with large amounts of homework, overlapping deadlines and mounting academic pressure.</p>
 
       </div>
@@ -82,7 +82,7 @@ export function ArticleBody() {
 
       {/* Section 2 */}
       <h2 className="mt-12 scroll-mt-24 font-serif text-[1.75rem] font-bold leading-[1.2] tracking-[-0.01em] text-foreground md:text-3xl">
-        The pitfalls of &ldquo;creative laziness&rdquo;
+        The pitfalls of &ldquo;<Hyperlink href="">creative laziness</Hyperlink>&rdquo;
       </h2>
       <div className="mt-5 space-y-5 text-base leading-[1.7] text-foreground md:text-lg">
         <p>
@@ -93,18 +93,18 @@ export function ArticleBody() {
           &ldquo;I must admit that on some nights, exhausted from overlapping
           deadlines, I was tempted by the most convenient option, simply
           copying the AI-generated structure and outline and filling in the
-          content. It saved me a lot of time in the short term,&rdquo; Ngoc
+          content. It saved me a lot of time in the short term&rdquo;, Ngoc
           admitted.
         </p>
         <p>
-          During one grading session, Ngoc and several classmates received their
-          assignments back,which were flagged by {" "}
-          <Hyperlink href="https://shorturl.at/cwhEI">Turnitin</Hyperlink>, an AI checking tool for
-          excessive AI-generated content, surpassing the permitted limit.
+          During a grading session, Ngoc and a few classmates received their 
+          assignments back, only to find them flagged by Turnitin, an AI-powered 
+          grading tool, for containing too much AI-generated content, exceeding 
+          the allowed limit.
         </p>
-        <p>
-          &ldquo;Oh well, at least I have a paper to submit to pass then
-          course,&rdquo; she shrugged, telling herself it was fine.
+        <p>Recalling the moment she submitted her assignment, Ngoc knew what she was 
+          doing was dishonest, but due to exhaustion, she tried to reassure herself:
+           “Oh well, at least I have a paper to submit to pass the course”.
         </p>
         <p>
           The incident sparked a wider alarm across her department, but it also
@@ -210,11 +210,15 @@ export function ArticleBody() {
             b: "to better assess students' understanding of their own arguments.",
           },
           {
-            h: "Fostering a culture of transparency ",
-            b: "about AI use, so the technology becomes a declared tool rather than a hidden crutch.",
+            h: (
+              <>
+                Fostering a <Hyperlink href="">culture of transparency about AI</Hyperlink> use.
+              </>
+            ),
+            b: " so the technology becomes a declared tool rather than a hidden crutch.",
           },
         ].map((item, i) => (
-          <li key={item.h} className="flex gap-4">
+          <li key={i} className="flex gap-4">
             <span className="mt-2 size-1.5 shrink-0 rounded-full bg-primary">
             </span>
             <span>
@@ -253,9 +257,8 @@ export function ArticleBody() {
 
       <div className="mt-5 space-y-5 text-base leading-[1.7] text-foreground md:text-lg">
         <p>
-          Back in her room, as the clock crept toward 3 a.m., Minh Ngoc made her
-          choice: she closed Gemini AI and started typing in her own words and
-          voice.
+          Back in her room, Minh Ngoc made her choice as the clock crept toward 3 AM. 
+          She closed  ChatGPT and started typing in her own words and voice.
         </p>
         <p className="leading-[1.4] tracking-[-0.01em] ">
           AI holds up a mirror that reflects what students could produce but
