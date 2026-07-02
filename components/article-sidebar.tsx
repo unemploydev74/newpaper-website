@@ -17,7 +17,7 @@ const RELATED = [
   {
     title: "Vietnam’s culture development in digital era",
     category: "CULTURE-SPORTS",
-    img: "/cultures.png",
+    img: "/cultures.png" ,
     href:"https://shorturl.at/F7A7p"
   },
 ]
