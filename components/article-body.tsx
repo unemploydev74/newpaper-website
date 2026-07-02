@@ -38,7 +38,7 @@ export function ArticleBody() {
           anoi, late at night, a third-year double-major student in English
           Linguistics and International Communication, Minh Ngoc, stared at a
           blank Word document. She had a final project assignment, and{" "}
-          <Hyperlink href="https://shorturl.at/AdvHY">ChatGPT</Hyperlink> blinked on her screen,
+          <Hyperlink href="https://shorturl.at/FKj2L">ChatGPT</Hyperlink> blinked on her screen,
           seemingly ready to write it in seconds, yet Minh Ngoc hesitated.
         </p>
         <p>
@@ -72,6 +72,10 @@ export function ArticleBody() {
           serves as a catalyst for new ideas rather than a substitute for
           original thinking.
         </p>
+        <p>When AI tools become more deeply embedded in university life, the gap 
+          between using AI as a springboard and becoming overly dependent on it 
+          is becoming an ongoing trend, especially for students who have to deal 
+          with large amounts of homework, overlapping deadlines and mounting academic pressure.</p>
 
       </div>
 
@@ -198,15 +202,15 @@ export function ArticleBody() {
       <ol className="mt-5 space-y-5 text-base leading-[1.7] text-foreground md:text-lg">
         {[
           {
-            h: "Redesign assignments",
-            b: "so AI cannot simply complete them, requiring students to apply concepts to real-world scenarios or critically analyze AI-generated content.",
+            h: "Changing the design of assignments,",
+            b: "requiring students to apply concepts to real-world scenarios or engage in a critical analysis.",
           },
           {
-            h: "Emphasize human-centric evaluation",
-            b: "which reveals how well students actually understand their own arguments.",
+            h: "Emphasizing in-person presentations and discussions ",
+            b: "to better assess students' understanding of their own arguments.",
           },
           {
-            h: "Foster a culture of transparency",
+            h: "Fostering a culture of transparency ",
             b: "about AI use, so the technology becomes a declared tool rather than a hidden crutch.",
           },
         ].map((item, i) => (
