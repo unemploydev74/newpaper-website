@@ -24,10 +24,10 @@ export function ArticleHero() {
         <span className="font-semibold text-foreground">By Từ Linh</span>
         <span className="flex items-center gap-1.5">
           <Calendar className="size-4" aria-hidden="true" />
-          June 18, 2026
+          July 6, 2026
         </span>
         <span className="flex items-center gap-1.5">
-          <Clock className="size-4" aria-hidden="true" />7 min read
+          <Clock className="size-4" aria-hidden="true" />5 min read
         </span>
       </div>
 
